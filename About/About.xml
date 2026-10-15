@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Intellectual Matters</name>
+  <description>Intellectual Matters ties learning speed and Intellectual training together in a simple way.
+
+Learning speed
+Your Intellectual skill acts like a brain-stat for the whole colony member. Higher Intellectual means they learn every skill faster; lower Intellectual means they learn slower. You can tune how strong that effect is at levels 0, 5, 10, 15, and 20.
+
+Daily Intellectual training
+Pawns do not get extra Intellectual XP drip-fed while they work other jobs. Instead, once per day at local midnight, each humanlike pawn gets a lump of Intellectual XP based on how much XP they earned that day in all other skills. By default that is a small percentage of the day's total (configurable). So a busy day of crafting, shooting, plants, etc. pays off as Intellectual overnight.
+
+Decay
+You can also scale how fast unused Intellectual skill decays. This only affects XP loss, not the midnight grant.
+
+Vanilla Intellectual XP from research and similar Intellectual work is unchanged. Optional debug logging can print the midnight grant breakdown to the log.</description>
+  <author>TSA</author>
+  <url>https://github.com/Likewise87/IntellectualMatters</url>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <packageId>TSA.IntellectualMatters</packageId>
+</ModMetaData>
